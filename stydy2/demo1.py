@@ -14,14 +14,15 @@ print(r.status_code)
 pattern = re.compile('explore-feed.*?question_link.*?>(.*?)</a>', re.S)
 titles = re.findall(pattern, r.text)
 print(titles)
+print ([ str(title).replace('\n','')  for title in titles])
 
 
-r=requests.get("https://github.com/favicon.ico")
-with open('favicon.ico','wb') as f:
-    f.write(r.content)
-
-
-data={'name':'wutong'}
-r=requests.post('http://httpbin.org/post',data=data)
-print(r.text)
+# r=requests.get("https://github.com/favicon.ico")
+# with open('favicon.ico','wb') as f:
+#     f.write(r.content)
+#
+#
+# data={'name':'wutong'}
+# r=requests.post('http://httpbin.org/post',data=data)
+# print(r.text)
 

@@ -25,7 +25,13 @@ if __name__ == '__main__':
 
     lists = re.findall(pattern, html)
 
+
     # for i in lists:
     #     print(str(i).strip().replace(' ',''))
     print(lists)
     print("----")
+    print(lists[0][2])
+    print("----")
+    print(re.sub("\n*\s*",'',lists[0][2]))
+    # for name,score,text in lists[0]:
+    #     print(text)

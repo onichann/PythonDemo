@@ -1,4 +1,5 @@
 import requests, re, time
+from lxml import etree
 
 
 def get_page(url):
@@ -35,3 +36,10 @@ if __name__ == '__main__':
     print(re.sub("\n*\s*",'',lists[0][2]))
     # for name,score,text in lists[0]:
     #     print(text)
+
+    text=re.sub("\n*\s*",'',lists[0][2])
+    html=etree.HTML(lists[0][2])
+    print(html.xpath("//span/text()"))
+
+    text='导演：郭帆'
+    print(text.split("："))

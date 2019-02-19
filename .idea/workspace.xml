@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2d46cc9-460e-498e-b206-0a872d642472" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/ajaxPy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajaxPy/ajaxpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database1/mysql1/dbUtil.py" afterDir="false" />
+    <list default="true" id="b2d46cc9-460e-498e-b206-0a872d642472" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ajaxPy/ajaxphoto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database1/mysql`1/mysql1.py" beforeDir="false" afterPath="$PROJECT_DIR$/database1/mysql1/mysql1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajaxPy/ajaxpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ajaxPy/ajaxpy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +13,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FlaskStudy$beautiful_soup.coverage" NAME="beautiful_soup Coverage Results" MODIFIED="1550130618154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study3" />
+    <SUITE FILE_PATH="coverage/FlaskStudy$ajaxpy.coverage" NAME="ajaxpy Coverage Results" MODIFIED="1550563015695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ajaxPy" />
     <SUITE FILE_PATH="coverage/FlaskStudy$File_And_Exception.coverage" NAME="File_And_Exception Coverage Results" MODIFIED="1549638482842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study1" />
     <SUITE FILE_PATH="coverage/FlaskStudy$pyquery_1.coverage" NAME="pyquery_1 Coverage Results" MODIFIED="1550201012443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study3" />
+    <SUITE FILE_PATH="coverage/FlaskStudy$mysql1__1_.coverage" NAME="mysql1 (1) Coverage Results" MODIFIED="1550475656256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database1/mysql1" />
+    <SUITE FILE_PATH="coverage/FlaskStudy$demo4_.coverage" NAME="demo4_正则表达式 Coverage Results" MODIFIED="1549953985918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stydy2" />
+    <SUITE FILE_PATH="coverage/FlaskStudy$beautiful_soup.coverage" NAME="beautiful_soup Coverage Results" MODIFIED="1550130618154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study3" />
     <SUITE FILE_PATH="coverage/FlaskStudy$mysql1.coverage" NAME="mysql1 Coverage Results" MODIFIED="1550220412207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database1/mysql`1" />
     <SUITE FILE_PATH="coverage/FlaskStudy$FlaskStudy.coverage" NAME="FlaskStudy Coverage Results" MODIFIED="1549637144101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/FlaskStudy$.coverage" NAME="携程旅游 Coverage Results" MODIFIED="1550133968300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskStudy$mysql1__1_.coverage" NAME="mysql1 (1) Coverage Results" MODIFIED="1550475656256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database1/mysql1" />
     <SUITE FILE_PATH="coverage/FlaskStudy$barChart.coverage" NAME="barChart Coverage Results" MODIFIED="1549638618037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study1/pygal" />
     <SUITE FILE_PATH="coverage/FlaskStudy$pyquery.coverage" NAME="pyquery Coverage Results" MODIFIED="1550196492160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study3" />
-    <SUITE FILE_PATH="coverage/FlaskStudy$demo4_.coverage" NAME="demo4_正则表达式 Coverage Results" MODIFIED="1549953985918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stydy2" />
+    <SUITE FILE_PATH="coverage/FlaskStudy$ajaxphoto.coverage" NAME="ajaxphoto Coverage Results" MODIFIED="1550572927170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ajaxPy" />
     <SUITE FILE_PATH="coverage/FlaskStudy$cvs1.coverage" NAME="cvs1 Coverage Results" MODIFIED="1550215981968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cvs_1" />
   </component>
   <component name="DatabaseView">
@@ -45,18 +45,19 @@
     <session id="-683644535">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,14 +65,14 @@
           <entry key="Python Console" value="30" />
           <entry key="cookies_txt" value="1" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="10701" />
+          <entry key="py" value="12878" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="10731" />
+          <entry key="Python" value="12908" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +86,7 @@
           <entry key="html" value="3" />
           <entry key="ico" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="221" />
+          <entry key="py" value="233" />
           <entry key="pyi" value="4" />
           <entry key="svg" value="2" />
           <entry key="txt" value="13" />
@@ -97,7 +98,7 @@
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="220" />
+          <entry key="Python" value="232" />
           <entry key="PythonStub" value="4" />
           <entry key="SVG" value="2" />
           <entry key="UML" value="1" />
@@ -107,42 +108,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/携程旅游.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajaxPy/ajaxphoto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="93">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1550480629859" expanded="true" signature="86:2052" ph="..." />
-                <marker date="1550480629859" expanded="true" signature="1954:2041" ph="..." />
-                <marker date="1550480629859" expanded="true" signature="2828:3002" ph="..." />
+                <marker date="1550579336381" expanded="true" signature="857:2086" ph="..." />
+                <marker date="1550579336381" expanded="true" signature="1138:1914" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiecheng.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study3/beautiful_soup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajaxPy/ajaxpy.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -217,6 +194,7 @@
         <option value="$PROJECT_DIR$/携程旅游.py" />
         <option value="$PROJECT_DIR$/study3/beautiful_soup.py" />
         <option value="$PROJECT_DIR$/ajaxPy/ajaxpy.py" />
+        <option value="$PROJECT_DIR$/ajaxPy/ajaxphoto.py" />
       </list>
     </option>
   </component>
@@ -227,8 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="231" />
-    <option name="y" value="28" />
+    <option name="x" value="172" />
+    <option name="y" value="32" />
     <option name="width" value="1238" />
     <option name="height" value="729" />
   </component>
@@ -250,6 +228,16 @@
               <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskStudy" type="462c0819:PsiDirectoryNode" />
               <item name="ajaxPy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="stydy2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -287,29 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dbUtil">
-    <configuration name="携程旅游" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlaskStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/携程旅游.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ajaxphoto">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="FlaskStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,20 +298,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cvs1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ajaxphoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlaskStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cvs_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ajaxPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cvs_1/cvs1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ajaxPy/ajaxphoto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ajaxpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ajaxPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ajaxPy/ajaxpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,6 +340,9 @@
       <module name="FlaskStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database1/mysql1" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -434,19 +419,19 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.FlaskStudy" />
-      <item itemvalue="Python.携程旅游" />
-      <item itemvalue="Python.cvs1" />
       <item itemvalue="Python.mysql1" />
       <item itemvalue="Python.mysql1 (1)" />
       <item itemvalue="Python.dbUtil" />
+      <item itemvalue="Python.ajaxpy" />
+      <item itemvalue="Python.ajaxphoto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ajaxphoto" />
+        <item itemvalue="Python.ajaxpy" />
         <item itemvalue="Python.dbUtil" />
         <item itemvalue="Python.mysql1 (1)" />
         <item itemvalue="Python.mysql1" />
-        <item itemvalue="Python.cvs1" />
-        <item itemvalue="Python.携程旅游" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550223311464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1550480670437</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550480670438</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -510,23 +502,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41331" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53583616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32764506" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" visible="true" weight="0.34300342" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.34300342" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.34300342" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.34300342" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33099824" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.4641638" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" visible="true" weight="0.45904437" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -535,22 +528,22 @@
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" sideWeight="0.5025381" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4150613" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53583616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32764506" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33560476" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.34300342" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.49829352" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.323993" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" visible="true" weight="0.49658704" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.34300342" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33099824" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" visible="true" weight="0.45904437" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,33 +589,60 @@
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>result.group(1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.group(0)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.search('pgc-image/(.*?)',url)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.match('pgc-image/(.*?)',url)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>url</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>soup.get</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>soup.get_text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>soup.get_text</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>soup.prettify()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study1/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study1/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study1/first.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://E:/Python37/Lib/site-packages/requests/packages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -654,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Python37/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="724" column="8" selection-start-line="724" selection-start-column="8" selection-end-line="724" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -686,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stydy2/reptile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -731,24 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stydy2/demo4_正则表达式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stydy2/解析链接.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stydy2/requests使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -791,13 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python37/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="949" column="8" selection-start-line="949" selection-start-column="8" selection-end-line="949" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -879,23 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study3/pyquery_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1998718715/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="4788" column="8" selection-start-line="4788" selection-start-column="8" selection-end-line="4788" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -928,22 +896,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stydy2/requests使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stydy2/reptile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python37/Lib/site-packages/requests/status_codes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python37/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="872" column="8" selection-start-line="872" selection-start-column="8" selection-end-line="872" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python37/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="949" column="8" selection-start-line="949" selection-start-column="8" selection-end-line="949" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study3/pyquery_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
-            <marker date="1550476747575" expanded="true" signature="41:893" ph="..." />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python37/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/携程旅游.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="109">
+          <caret line="35" column="92" lean-forward="true" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1550480629859" expanded="true" signature="86:2052" ph="..." />
             <marker date="1550480629859" expanded="true" signature="1954:2041" ph="..." />
             <marker date="1550480629859" expanded="true" signature="2828:3002" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study3/beautiful_soup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -954,15 +978,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study3/beautiful_soup.py">
+    <entry file="file://E:/Python37/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1998718715/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="177">
+          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxPy/ajaxpy.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1550563958729" expanded="true" signature="431:436" ph="..." />
+            <marker date="1550563958729" expanded="true" signature="843:1369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stydy2/demo4_正则表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxPy/ajaxphoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1550579336381" expanded="true" signature="857:2086" ph="..." />
+            <marker date="1550579336381" expanded="true" signature="1138:1914" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

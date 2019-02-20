@@ -15,7 +15,7 @@ import json
 # print(response.getheader('Server'))
 # print(response)
 
-data=bytes(urllib.parse.urlencode({'type': '我1'}),encoding='utf8')
+data=bytes(json.dumps({'type': '我1'}),encoding='utf8')
 request=urllib.request.Request('http://httpbin.org/post',data=data,method="POST")
 # request=urllib.request.Request('https://www.baidu.com',data=data,method="POST")
 request.add_header('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36')

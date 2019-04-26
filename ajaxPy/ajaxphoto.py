@@ -19,7 +19,7 @@ params = {
     'aid': 24,
     'offset': 0,
     'format': 'json',
-    'keyword': '周钰',
+    'keyword': 'cosplay',
     'autoload': 'true',
     'count': 20,
     'en_qc': 1,

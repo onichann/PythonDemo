@@ -9,6 +9,7 @@ class ConnectWifi:
         wifi = pywifi.PyWiFi()  # 网卡接口
         self.iface = wifi.interfaces()[0]  # 第一个无线网卡
         self.iface.status()
+        self.iface.disconnect()
 
     def test_connect(self):
         profile = pywifi.Profile()

@@ -14,3 +14,5 @@ import requests
 if __name__ == '__main__':
     values = ','.join(['%s'] * 5)
     print(values)
+
+    print(3 if False else 4)

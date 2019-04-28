@@ -14,11 +14,11 @@ class ConnectWifi:
     def test_connect(self):
         self.iface.disconnect()
         profile = pywifi.Profile()
-        profile.ssid = "gisinfo_gt501"
+        profile.ssid = "GISINFO_GT501"
         profile.auth = const.AUTH_ALG_OPEN  # wifi 状态
         profile.akm.append(const.AKM_TYPE_WPA2PSK)  # wifi加密算法
         profile.cipher = const.CIPHER_TYPE_CCMP  # 加密单元
-        profile.key = "gisinfo_123"  # 密码
+        profile.key = "gisinfo123"  # 密码
 
         self.iface.remove_all_network_profiles()  # 删除所有的wifi文件
         tmp_profile = self.iface.add_network_profile(profile)  # 设定新的链接文件
@@ -41,7 +41,7 @@ try:
     # print("无线网卡连接成功，请选择需要执行的功能(1/2)：\n 1 连接wifi \n 2 断开wifi")
     message = ""
     while message != "1" or message != "2":
-        message = input("无线网卡连接成功，请选择需要执行的功能(1/2)：\n 1 连接wifi \n 2 断开wifi \n")
+        message = input("无线网卡连接成功，请选择需要执行的功能(1/2)：\n 1 连接内网wifi \n 2 断开wifi \n")
         if message == "1":
             print("正在连接，请稍后...")
             try:

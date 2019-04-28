@@ -5,6 +5,7 @@ import re
 from hashlib import md5
 from concurrent.futures import ThreadPoolExecutor
 import threading
+import time
 
 
 executor=ThreadPoolExecutor(10)
@@ -13,10 +14,12 @@ save_path=r'e:\\python爬虫\\photos\\'
 url = 'https://www.toutiao.com/api/search/content/?'
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
-    'x-requested-with': 'XMLHttpRequest'
+    'x-requested-with': 'XMLHttpRequest',
+    'cookie': 'tt_webid=6684873945545983499; WEATHER_CITY=%E5%8C%97%E4%BA%AC; tt_webid=6684873945545983499; UM_distinctid=16a634335cff0-03666c7b6534bf-1333063-100200-16a634335d0399; CNZZDATA1259612802=1736642875-1556441929-%7C1556441929; __tasessionId=6hvc434qx1556443510378; csrftoken=f101e81ca8f30833ccf0066a32bf4dee; s_v_web_id=034a977bc58638adfa9776f96177f1a0'
 }
 params = {
     'aid': 24,
+    'app_name':'web_search',
     'offset': 0,
     'format': 'json',
     'keyword': 'cosplay',
@@ -25,7 +28,8 @@ params = {
     'en_qc': 1,
     'cur_tab': 1,
     'from': 'search_tab',
-    'pd': 'synthesis'
+    'pd': 'synthesis',
+    'timestamp':time.time()
 }
 
 def getPages(offset=0):

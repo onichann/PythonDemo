@@ -22,7 +22,7 @@ def getHtml(url):
     return r.text if (r.status_code == 200) else None
 
 def page_pinglun():
-    url='http://you.ctrip.com/destinationsite/TTDSecond/SharedView/AsynCommentView';
+    url='http://you.ctrip.com/destinationsite/TTDSecond/SharedView/AsynCommentView'
 
 def main():
     data=dict()

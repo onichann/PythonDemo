@@ -3,6 +3,7 @@ import requests
 ip = "http://tdzfxx:8088/default/app"
 
 
+# 增加巡查上报记录
 def addxcsb(ip):
     url = ip + "/com.shghtd.tdzf.app.xcsb.xcsb.addXcsb.biz.ext"
     # url="http://httpbin.org/post"
@@ -18,10 +19,11 @@ def addxcsb(ip):
                     "szq": "sss",
                     "szz": "ssss",
                     "ytbmj": 12.1,
-                    "zdmj": 66,
+                    "zdmj": 661,
                     "sbr": "sefie",
                     "cjsj": "2018-01-23",
-                    "xsqk": "ssfjiji"
+                    "xsqk": "ssfjiji",
+                    "distance":"500"
             }
 
     try:
@@ -34,6 +36,7 @@ def addxcsb(ip):
     except Exception as e:
         print(e)
 
+# 查询巡查上报单个记录
 def query_xcsb(ip):
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.queryXcsbDetail.biz.ext"
     headers = {
@@ -55,6 +58,7 @@ def query_xcsb(ip):
         print(e)
 
 
+# 删除
 def delete_xcsb(ip):
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.deleteXcsb.biz.ext"
     headers = {
@@ -75,6 +79,7 @@ def delete_xcsb(ip):
     except Exception as e:
         print(e)
 
+# 提交
 def submit_xcsb(ip):
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.submitXcsb.biz.ext"
     headers = {
@@ -95,7 +100,40 @@ def submit_xcsb(ip):
     except Exception as e:
         print(e)
 
+
+# 查询列表
+def query_xcsbList(ip):
+    url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.queryXcsbList.biz.ext"
+    headers = {
+
+        'x-requested-with': 'XMLHttpRequest'
+    }
+    param={
+        "pageSize":5,
+        "pageIndex":0,
+        "sortField":"cjsj",
+        "sortOrder":"desc",
+        "queryParam":{
+            "xsqk":"我",
+            "tbbh":"112",
+            "szq":"sss",
+            "szz":"ssss"
+        }
+
+    }
+
+    try:
+        resp = requests.post(url, json=param,headers=headers)
+        if resp.status_code == requests.codes.ok:
+             print(resp.json())
+            # print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
 # addxcsb(ip)
 # query_xcsb(ip)
 # delete_xcsb(ip)
-submit_xcsb(ip)
+# submit_xcsb(ip)
+# query_xcsbList(ip)

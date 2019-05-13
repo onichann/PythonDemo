@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d46cc9-460e-498e-b206-0a872d642472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jobLink/xcsb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/携程旅游.py" beforeDir="false" afterPath="$PROJECT_DIR$/携程旅游.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobLink/xcsb.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobLink/xcsb.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +76,14 @@
           <entry key="connect_wifi" value="6" />
           <entry key="cookies_txt" value="1" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="16475" />
+          <entry key="py" value="16712" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="16514" />
+          <entry key="Python" value="16751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,10 +126,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jobLink/xcsb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="1976">
+              <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
               <folding>
-                <marker date="1557477234939" expanded="true" signature="1109:2497" ph="..." />
+                <marker date="1557738468736" expanded="true" signature="1172:3269" ph="..." />
               </folding>
             </state>
           </provider>
@@ -233,10 +232,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="418" />
-    <option name="y" value="55" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1238" />
-    <option name="height" value="735" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,6 +250,11 @@
             <path>
               <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jobLink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlaskStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -553,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556445869258</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first commit">
+      <created>1557480652188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557480652188</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -567,9 +578,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49691358" weight="0.22087745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49691358" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" sideWeight="0.50308645" side_tool="true" weight="0.24054463" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -580,11 +590,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32764506" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.34982935" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" visible="true" weight="0.35494882" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.34300342" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.33617747" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1037,10 +1047,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobLink/xcsb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="1976">
+          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
           <folding>
-            <marker date="1557477234939" expanded="true" signature="1109:2497" ph="..." />
+            <marker date="1557738468736" expanded="true" signature="1172:3269" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,7 @@
 import requests
 
 ip = "http://tdzfxx:8088/default/app"
+# ip = "http://172.16.15.220:8088/default/app"
 
 
 # 增加巡查上报记录
@@ -27,7 +28,7 @@ def addxcsb(ip):
             }
 
     try:
-        resp = requests.post(url, json={"xcsb":data},headers=headers)
+        resp = requests.post(url, json={"xcsb":data})
         if resp.status_code == requests.codes.ok:
             # print(resp.json())
             print(resp.text)
@@ -109,15 +110,15 @@ def query_xcsbList(ip):
         'x-requested-with': 'XMLHttpRequest'
     }
     param={
-        "pageSize":5,
+        "pageSize":20,
         "pageIndex":0,
         "sortField":"cjsj",
         "sortOrder":"desc",
         "queryParam":{
-            "xsqk":"我",
-            "tbbh":"112",
-            "szq":"sss",
-            "szz":"ssss"
+            "xsqk":"",
+            "tbbh":"",
+            "szq":"",
+            "szz":""
         }
 
     }
@@ -136,4 +137,4 @@ def query_xcsbList(ip):
 # query_xcsb(ip)
 # delete_xcsb(ip)
 # submit_xcsb(ip)
-# query_xcsbList(ip)
+query_xcsbList(ip)

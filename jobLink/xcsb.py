@@ -1,6 +1,7 @@
 import requests
+import json
 
-ip = "http://tdzfxx:8088/default/app"
+ip = "http://192.168.5.112:8088/default/app"
 # ip = "http://172.16.15.220:8088/default/app"
 
 
@@ -133,8 +134,62 @@ def query_xcsbList(ip):
     except Exception as e:
         print(e)
 
+
+def post_job():
+
+    url = ip + "/com.shghtd.tdzf.app.plot.addJob.biz.ext"
+    # url="http://httpbin.org/post"
+
+    headers = {
+        # 'Content-Type':'application/json',
+        'x-requested-with': 'XMLHttpRequest'
+    }
+    data = {
+        "geometry": [
+            [
+                [3545.4124162130756, 25829.32259068107],
+                [-23336.307610171523, -22007.448631414853],
+                [17727.105023932192, -21160.76089345088]
+            ]
+        ],
+        "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
+        "type": "tdzf",
+        "tbbh": 1111111111122,
+        "userId": "19978"
+    }
+
+    try:
+        resp = requests.post(url,data={"params":json.dumps(data)},headers=headers)
+        if resp.status_code == requests.codes.ok:
+            # print(resp.json())
+            print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
+
+def query_job():
+    url = ip + "/com.shghtd.tdzf.app.plot.queryJobResult.biz.ext"
+    headers = {
+        # 'Content-Type':'application/json',
+        'x-requested-with': 'XMLHttpRequest'
+    }
+    try:
+        resp = requests.post(url,data={"tbbh":"1558318059576"},headers=headers)
+        if resp.status_code == requests.codes.ok:
+            # print(resp.json())
+            print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
+
 # addxcsb(ip)
 # query_xcsb(ip)
 # delete_xcsb(ip)
 # submit_xcsb(ip)
-query_xcsbList(ip)
+# query_xcsbList(ip)
+post_job()
+# query_job()

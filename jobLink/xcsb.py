@@ -6,7 +6,7 @@ ip = "http://192.168.5.112:8088/default/app"
 
 
 # 增加巡查上报记录
-def addxcsb(ip):
+def addxcsb():
     url = ip + "/com.shghtd.tdzf.app.xcsb.xcsb.addXcsb.biz.ext"
     # url="http://httpbin.org/post"
     headers={
@@ -39,7 +39,7 @@ def addxcsb(ip):
         print(e)
 
 # 查询巡查上报单个记录
-def query_xcsb(ip):
+def query_xcsb():
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.queryXcsbDetail.biz.ext"
     headers = {
 
@@ -61,7 +61,7 @@ def query_xcsb(ip):
 
 
 # 删除
-def delete_xcsb(ip):
+def delete_xcsb():
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.deleteXcsb.biz.ext"
     headers = {
 
@@ -82,7 +82,7 @@ def delete_xcsb(ip):
         print(e)
 
 # 提交
-def submit_xcsb(ip):
+def submit_xcsb():
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.submitXcsb.biz.ext"
     headers = {
 
@@ -104,7 +104,7 @@ def submit_xcsb(ip):
 
 
 # 查询列表
-def query_xcsbList(ip):
+def query_xcsbList():
     url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.queryXcsbList.biz.ext"
     headers = {
 
@@ -186,10 +186,39 @@ def query_job():
         print(e)
 
 
-# addxcsb(ip)
-# query_xcsb(ip)
-# delete_xcsb(ip)
-# submit_xcsb(ip)
-# query_xcsbList(ip)
-post_job()
+def create_tbbh():
+    url=ip+"/com.shghtd.tdzf.app.xcsb.xcsb.createTbbh.biz.ext"
+    headers = {
+
+        'x-requested-with': 'XMLHttpRequest'
+    }
+    param={
+        "param":{
+            "district":"14",
+            "town":"14816",
+            "recorder_id":"pd_xj",
+            "recorder":"许俊",
+            "bid":"1ca452c2f6d246458af97e126f77f9f4"
+        }
+
+    }
+
+    try:
+        resp = requests.post(url, json=param,headers=headers)
+        if resp.status_code == requests.codes.ok:
+             print(resp.json())
+            # print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
+# addxcsb()
+# query_xcsb()
+# delete_xcsb()
+# submit_xcsb()
+# query_xcsbList()
+# post_job()
 # query_job()
+create_tbbh()
+

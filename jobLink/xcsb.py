@@ -116,7 +116,7 @@ def query_xcsbList():
         "sortField":"cjsj",
         "sortOrder":"desc",
         "queryParam":{
-            "xsqk":"",
+            "xsqk":"1",
             "tbbh":"",
             "szq":"",
             "szz":""
@@ -217,8 +217,8 @@ def create_tbbh():
 # query_xcsb()
 # delete_xcsb()
 # submit_xcsb()
-# query_xcsbList()
+query_xcsbList()
 # post_job()
 # query_job()
-create_tbbh()
+# create_tbbh()
 

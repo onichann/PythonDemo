@@ -147,12 +147,13 @@ def post_job():
     data = {
         "geometry": [
             [
-                [3545.4124162130756, 25829.32259068107],
-                [-23336.307610171523, -22007.448631414853],
-                [17727.105023932192, -21160.76089345088]
+               [3032.297119495598, -284.42083757444925],
+                [6613.150922176593, 1512.4229359550527],
+               [7209.960170810771, -1240.5990171709527]
             ]
         ],
-        "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
+        # "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
+        "layers": ["2cff71d0d83649f09ab4ed4a38697754"],
         "type": "tdzf",
         "tbbh": 2495342978847,
         "userId": "19978"
@@ -217,8 +218,8 @@ def create_tbbh():
 # query_xcsb()
 # delete_xcsb()
 # submit_xcsb()
-query_xcsbList()
-# post_job()
+# query_xcsbList()
+post_job()
 # query_job()
 # create_tbbh()
 

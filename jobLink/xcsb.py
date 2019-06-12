@@ -119,7 +119,8 @@ def query_xcsbList():
             "xsqk":"1",
             "tbbh":"",
             "szq":"",
-            "szz":""
+            "szz":"",
+            "sbr":""
         }
 
     }
@@ -145,17 +146,15 @@ def post_job():
         'x-requested-with': 'XMLHttpRequest'
     }
     data = {
-        "geometry": [
-            [
-               [3032.297119495598, -284.42083757444925],
-                [6613.150922176593, 1512.4229359550527],
-               [7209.960170810771, -1240.5990171709527]
-            ]
-        ],
-        # "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
-        "layers": ["2cff71d0d83649f09ab4ed4a38697754"],
+        "geometry": [[
+            [1728.2496532216226,-7119.29692467117],
+            [1701.7912669715167,-7173.272056844762],
+            [1762.11637551007,-7176.447055120316]
+        ]],
+            # "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
+        "layers": ["6d56ed32eed3437896e0ed0e4dd3f67c","4e1f3217d0904570ad6a4bf73222ea5a","ed792411eff6468da48931c0b4cce295"],
         "type": "tdzf",
-        "tbbh": 2495342978847,
+        "tbbh": 1559825903607,
         "userId": "19978"
     }
 
@@ -219,7 +218,43 @@ def create_tbbh():
 # delete_xcsb()
 # submit_xcsb()
 # query_xcsbList()
-post_job()
+# post_job()
 # query_job()
 # create_tbbh()
 
+def createTask():
+    url=ip+"/com.shghtd.tdzf.app.djfxOptimization.newcomponent.OverAnalysisOptimizationTest.biz.ext"
+    headers = {
+
+        'x-requested-with': 'XMLHttpRequest'
+    }
+
+    try:
+        resp = requests.get(url,headers=headers)
+        if resp.status_code == requests.codes.ok:
+            # print(resp.json())
+            print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
+def TestTask():
+    url=ip+"/com.shghtd.tdzf.app.djfxOptimization.newcomponent.OAOTest.biz.ext"
+    headers = {
+
+        'x-requested-with': 'XMLHttpRequest'
+    }
+
+    try:
+        resp = requests.get(url,headers=headers)
+        if resp.status_code == requests.codes.ok:
+            # print(resp.json())
+            print(resp.text)
+        else:
+            print(resp.status_code)
+    except Exception as e:
+        print(e)
+
+# createTask()
+TestTask()

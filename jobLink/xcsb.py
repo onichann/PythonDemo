@@ -1,7 +1,7 @@
 import requests
 import json
 
-ip = "http://192.168.5.112:8088/default/app"
+ip = "http://192.168.5.116:8088/default/app"
 # ip = "http://172.16.15.220:8088/default/app"
 
 
@@ -116,13 +116,13 @@ def query_xcsbList():
         "sortField":"cjsj",
         "sortOrder":"desc",
         "queryParam":{
-            "xsqk":"1",
+            "xsqk":"",
             "tbbh":"",
             "szq":"",
             "szz":"",
-            "sbr":""
+            "sbr":"",
+            "tbbhAndXsqk":"1"
         }
-
     }
 
     try:
@@ -146,15 +146,12 @@ def post_job():
         'x-requested-with': 'XMLHttpRequest'
     }
     data = {
-        "geometry": [[
-            [1728.2496532216226,-7119.29692467117],
-            [1701.7912669715167,-7173.272056844762],
-            [1762.11637551007,-7176.447055120316]
-        ]],
+        "geometry": [[[7945.442130350259,-1105.3057300221099],[6357.9381478980395,-2883.3096090075696],[8792.110490353645,-3348.9773684986067]]],
+        "layers": ["44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
             # "layers": ["2cff71d0d83649f09ab4ed4a38697754", "44c1e80e1425473d963c5fe1e161ef1f", "ec5cd1a04d914fb296735c1d7a1851df"],
-        "layers": ["6d56ed32eed3437896e0ed0e4dd3f67c","4e1f3217d0904570ad6a4bf73222ea5a","ed792411eff6468da48931c0b4cce295"],
+        # "layers": ["6d56ed32eed3437896e0ed0e4dd3f67c","4e1f3217d0904570ad6a4bf73222ea5a","ed792411eff6468da48931c0b4cce295"],
         "type": "tdzf",
-        "tbbh": 1559825903607,
+        "tbbh": 111122225556,
         "userId": "19978"
     }
 
@@ -213,15 +210,6 @@ def create_tbbh():
     except Exception as e:
         print(e)
 
-# addxcsb()
-# query_xcsb()
-# delete_xcsb()
-# submit_xcsb()
-# query_xcsbList()
-# post_job()
-# query_job()
-# create_tbbh()
-
 def createTask():
     url=ip+"/com.shghtd.tdzf.app.djfxOptimization.newcomponent.OverAnalysisOptimizationTest.biz.ext"
     headers = {
@@ -256,5 +244,13 @@ def TestTask():
     except Exception as e:
         print(e)
 
+# addxcsb()
+# query_xcsb()
+# delete_xcsb()
+# submit_xcsb()
+# query_xcsbList()
+# post_job()
+# query_job()
+# create_tbbh()
 # createTask()
-TestTask()
+# TestTask()
